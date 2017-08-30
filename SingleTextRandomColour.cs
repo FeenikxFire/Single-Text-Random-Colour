@@ -35,7 +35,7 @@ public class SingleTextRandomColour : MonoBehaviour
     #endregion
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         //Store original word based of UI text.
         originalWord = uiText.text.ToString();
